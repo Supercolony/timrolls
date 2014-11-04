@@ -1,0 +1,30 @@
+PixelDrifter is the powerful pixel-sorting tool written in pure Java. Make sure you have
+JDK/JRE(6 or higher) installed on your machine and your desktop environment is
+properly set up. Unlike many other pixel-sorting applications, PixelDrifter is the work
+of digital art - the true successor of Conway's Game of Life.
+
+The freeware version of PixelDrifter comes with no warranty, no user-guide and no user
+support. Also several modes are locked. Other limitations of the demo version:
+only 5 passes in a row allowed, watermark.
+Contact me if want to get the full version.
+
+Some hints:
+
+Sometimes for some reason the Java virtual machine ignores Window.pack() method
+which ends up with the PxDrifter window refusing to resize to fit an image size. Use
+"Options->Repack Window" to forcibly restore the correct window dimensions.
+
+The realtime visualization, especially of a scaled down image, significantly slows down 
+the sorting process. Disable this option while working with huge images unless you got a
+really fast  machine.
+
+Normally, if you try to load an image which is to huge to fit your computer's memory
+you get an error message. Although, some out of memory errors may remain uncaught.
+If you try do do something, but nothing happens - that's most likely the OOM error. Try
+increasing java heap size. 
+
+"Save frames" option will reliably work only with "slower" algorithms. 
+
+
+Dmitriy Krotevich 
+non9rato@gmail.com
